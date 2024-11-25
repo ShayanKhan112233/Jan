@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in to Facebook</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        *{
+		       margin:0px;
+			   padding:0px;
+			   box-sizing:border-box;
+			   font-family:'puppins',sans-serif;
+		  }
+        body{
+               display:flex;
+			   justify-content:center;
+			   align-items:center;
+			   min-height:100vh;
+			   background-color: #f0f2f5;
+			   background-size:cover;
+			   background-position:center;
+        }
+        .wrapper{
+               background-color: #fff;
+               width:420px;
+			   border:2px solid rgba(255, 255, 255, .2);
+			   box-shadow:0 0 10px rgba(182, 181, 181, 0.2);
+			   border-radius:10px;
+			   padding:30px 40px;
+               margin-left: 10%;
+               //margin-top: -80%;
+               box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+               0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+        .wrapper h1{
+            color: black;
+            font-size: 20px;
+            text-align: center;
+            margin: 15px 0;
+        }
+        input{
+		     width: 100%;
+             height: 50px;
+             border-radius: 6px;
+             padding: 20px 15px 20px;
+             border: 1px solid rgb(214, 212, 212);
+             outline: none;
+             margin-bottom: 15px;
+		}
+        .btn{
+            width: 100%;
+            height: 48px;
+            border-radius: 6px;
+            background-color: #1877f2;
+            border: 1px solid #1877f2;
+        }
+        .btn:hover{
+            background-color: #0d65d9;
+            border: 1px solid #0d65d9;
+        }
+        .btn a{
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: bolder;
+            color: #fff;
+        }
+        .but{
+            width: 70%;
+            height: 48px;
+            border-radius: 6px;
+            margin-top: 5%;
+            margin-left: 15%;
+            background-color: #42b72a;
+            border: 1px solid #42b72a;
+        }
+        .but:hover{
+            background-color: #3ba626;
+            border: 1px solid #3ba626;
+        }
+        .but a{
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bolder;
+            color: #fff;
+        }
+        .Forgotten{
+            text-align: center;
+            margin-top: 5%;
+        }
+        .Forgotten a{
+            text-decoration: none;
+            color: #1877f2;
+        }
+        .Forgotten a:hover{
+            text-decoration: underline;
+        }
+        h1{
+            color: #1877f2;
+            font-size: 4rem;
+            margin-top: -13%;
+        }
+        body hr{
+            border: none;
+            height: 1px;
+            background-color: #ccc;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        p{
+            margin-left: -22.8%;
+            font-size: 1.75rem;
+            white-space: nowrap;
+        }
+
+    </style>
+</head>
+<body>
+   
+    <h1>facebook</h1>
+    <p>Connect with friends and the world<br>around you on Facebook.</p>
+
+    <div class="wrapper">
+       <form action="">
+         <input type="text" placeholder="Email address or phone number">
+         
+         <input type="text" placeholder="Password">
+
+         <button type="submit" class="btn"><a href="">Log in</a></button>
+
+         <h4 class="Forgotten"><a href="">Forgotten account?</a></h4>
+         <hr>
+         <button type="submit" class="but"><a href="">Create new account</a></button>
+
+       </form>
+    </div>
+    
+</body>
+</html>
